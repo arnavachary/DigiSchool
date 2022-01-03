@@ -1,0 +1,33 @@
+#navbar-list > a{
+    margin: 0 30px;
+}
+
+#navbar{
+    background-color: #aacbeb;
+}
+
+
+#logo{
+    height: auto;
+    width: 7vw;
+
+}
+
+#navbar-list > a:hover{
+    color: rgb(172, 5, 5);
+}
+
+@media only screen and (max-width:768px)  {
+    #navbar-list > a{
+        margin: 10px 0 10px 10px !important;
+    }        
+}
+
+@media only screen and (max-width:430px){
+    #logo{
+        width: 20vw !important;
+        height: 10vh;
+        
+
+    }
+}
