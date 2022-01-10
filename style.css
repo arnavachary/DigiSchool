@@ -1,3 +1,4 @@
+
 #navbar-list > a{
     margin: 0 30px;
 }
@@ -17,17 +18,71 @@
     color: rgb(172, 5, 5);
 }
 
+.nav-2{
+   display: contents !important;
+}
+
+#banner{
+    height: 80vh !important;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.carousel-item > img {
+    height: 80vh;
+    width: 100vw;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 64px;
+    color: #3a2e2e; 
+}
+
+#points{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin: 10vh auto;
+}
+
+#points > span > i{
+    font-size: 2.5rem !important;
+    color: #0e3e6e;
+    margin: 20px 0;
+}
+
+
 @media only screen and (max-width:768px)  {
     #navbar-list > a{
         margin: 10px 0 10px 10px !important;
     }        
-}
 
-@media only screen and (max-width:430px){
-    #logo{
-        width: 20vw !important;
-        height: 10vh;
-        
-
+    .carousel-item > img{
+        height: 58vh;
     }
 }
+
+    @media only screen and (max-width:430px){
+        #logo{
+            width: 20vw !important;
+            height: 10vh;
+        }
+        .nav-2 > a{
+            padding-left: 10px !important;
+        }
+        .carousel-item > img{
+                height: 39vh;
+        }
+
+        #points{
+            display: block;
+            margin: 3vh auto;
+            
+        }
+
+        #intro > h4{
+            font-size: 1rem;
+        }
+    }
+
