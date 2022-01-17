@@ -53,6 +53,30 @@
 }
 
 
+#teacher{
+    justify-content: center;
+    margin: 3vh auto;
+}
+
+.col{
+    text-align: center;
+}
+
+#teach{
+    text-align: center;
+}
+
+
+#teacher-img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+
+    
+}
+
+
+
 @media only screen and (max-width:768px)  {
     #navbar-list > a{
         margin: 10px 0 10px 10px !important;
@@ -69,6 +93,13 @@
     .navbar-toggler-icon{
         border: 1px solid lightgrey;
     }
+
+    .image{
+        margin-left: 2vw !important;
+        height: 13vw;
+        width: 13vw;
+    }
+
 }
 
     @media only screen and (max-width:430px){
@@ -91,6 +122,16 @@
 
         #intro > h4{
             font-size: 1rem;
+        }
+
+        #teacher{
+            display: block !important;
+        }
+
+        .image{
+            width: 25vw !important;
+            height: 25vw !important;
+            margin-left: 35vw !important;
         }
 
         
