@@ -75,6 +75,65 @@
     
 }
 
+#carousel-2{
+    width: 60vw !important;
+    height: 23vh;
+    margin: auto;
+    border: 1px solid grey;
+    
+}
+
+
+
+#carousel-2 > .carousel-item {
+  display: grid !important;
+  grid-template-columns: 1fr 3fr !important ;
+  
+}
+
+#Testimonials{
+    text-align: center;
+    margin: 5vh auto;
+}
+
+#footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #121272;
+    margin: 6vh 0 0 0 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1vh 15vw;
+}
+
+#footer > #col3{
+    color: white;
+    
+    margin-left: 5vw;
+    display: block;
+}
+
+#footer > #col3 > img{
+    height: 10vh;
+    width: 20vw;
+    margin: 5vh auto;
+    border-radius: 10%;
+}
+
+#footer > #col4{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 1vh;
+} 
+#footer > #col4 > h2{
+    margin: 5vh 0;
+}
+
+#footer > #col4 > ul > li{
+    list-style-type: none;
+    margin: 3vh 0;
+}
+
 
 
 @media only screen and (max-width:768px)  {
@@ -100,6 +159,21 @@
         width: 13vw;
     }
 
+    #carousel-2{
+        width: 90% !important;
+        height: 25vh;
+    }
+
+    .col2{
+    margin-bottom: 10vh !important;
+    }
+
+    #footer{
+        height: 50vh;
+        width: 100vw;
+        padding: 0;
+
+    }
 }
 
     @media only screen and (max-width:430px){
@@ -133,7 +207,18 @@
             height: 25vw !important;
             margin-left: 35vw !important;
         }
+        /* #carousel-2{
+            height: 30vh;
+        } */
 
+         #footer{
+            height: auto;
+            display: block;
+        } 
+
+        .carousel-item {
+            display: block !important;
+        }
         
     }
 
