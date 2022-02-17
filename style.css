@@ -261,6 +261,84 @@
     margin: 3vh 0;
 }
 
+/* Contact us styling */
+
+#Query{
+    width: 50vw;
+    height: 80vh;
+    margin: 10vh auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Send{
+    width: auto;
+    background-color: rgb(0, 2, 116);
+}
+
+#Send > h3{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+}
+
+#Send > p{
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#details > .col1{
+    display:flex;
+    color: white;
+    margin-top: 3vh ;
+}
+
+#details > .col1 > i{
+    margin: 0 1vw;
+}
+
+#details > .col2{
+    color: white;
+    display: flex;
+    margin: 5vh 0;
+}
+
+#details > .col2 > i{
+    margin: 0 1vw;
+}
+
+#details > .col3{
+    display:flex ;
+    color: white;
+    margin: 5vh 0;
+}
+
+#details > .col3 > i{
+    margin: 0 1vw;
+}
+
+
+
+#Query > #info > form > .name{
+    margin-left: 5vw;
+}
+
+.fname{
+    display: block;
+    margin: auto;
+    margin: 5vh 5vw;
+}
+
+.sendQuery{
+    margin-left: 5vw;
+}
+
+#info > form{
+    padding-top: 10vh;
+}
+
 
 @media only screen and (max-width:768px)  {
     #navbar-list > a{
@@ -322,7 +400,12 @@
     #footer1{
         padding: 1px;
     }
-}
+
+
+    #Query{
+        width: 90%;
+    }
+    }
 
     @media only screen and (max-width:430px){
         #logo{
@@ -395,5 +478,21 @@
             display: block;
         }
 
+        #Query{
+            display: grid;
+            grid-template-columns: 1fr;
+            height: auto;
+        }
+
+        #info > button{
+            margin: 5vh 0;
+        }
+
     }
 
+@media only screen and (max-width:1030px){
+    #profile > .team > button {
+        width: 20vw;
+        margin-left: 40vw;
+    }
+    }  
