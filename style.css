@@ -339,6 +339,52 @@
     padding-top: 10vh;
 }
 
+#sign > #user{
+    width: 55vw;
+    height: auto;
+    border: 1px solid black;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#sign > #user > .account{
+    width: auto;
+    background-color: darkblue;
+    color: white;
+    height: auto;
+}
+
+#sign > #user > .account > h4{
+    text-align: center;
+    margin: 9vh;
+}
+
+#sign > #user > .account > p{
+    text-align: center;
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+    padding: 22px;
+    margin: 5vh 0;
+    
+}
+
+.form > button{
+    margin-top: 3vh;
+    width: auto;
+    
+}
+
+
+.form > input {
+    width: 15vw;
+    margin: 1vh 0
+}
+
 
 @media only screen and (max-width:768px)  {
     #navbar-list > a{
@@ -487,6 +533,9 @@
         #info > button{
             margin: 5vh 0;
         }
+        
+
+       
 
     }
 
