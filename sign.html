@@ -48,23 +48,23 @@
                     </div>
 
                     <div id="pass">
-                        <form action="" class="form">
+                        <form onsubmit="register(event)" class="form">
                             <p>Username</p>
-                            <input type="text" >
+                            <input id="username"  type="text" >
 
                              <p>Phone Number</p>
-                            <input type="text" >
+                            <input id="phone" type="text" >
 
                              <p>Email</p>
-                            <input type="text" placeholder="example@gmail.com" >
+                            <input id="email" type="text" placeholder="example@gmail.com" >
 
                              <p>Password</p>
-                            <input type="password" >
+                            <input id="password" type="password" >
 
                              <p>Confirm Password</p>
-                            <input type="password" >
+                            <input id="password2" type="password" >
 
-                            <button class="btn btn-primary d-block">Create Account</button>
+                            <button class="btn btn-primary d-block" type="submit" >Create Account</button>
                         </form>
 
                         
@@ -72,6 +72,8 @@
 
                 </div>
             </div>
+
+            <script src="sign.js"></script>
 
 
 </body>

@@ -48,16 +48,13 @@
                     </div>
 
                     <div id="pass">
-                        <form action="" class="form">
+                        <form onsubmit="logIn(event)" class="form">
 
                              <p>Email</p>
-                            <input type="text" placeholder="example@gmail.com" >
+                            <input id="mail" type="text" placeholder="example@gmail.com" >
 
                              <p>Password</p>
-                            <input type="password" >
-
-                             <p>Confirm Password</p>
-                            <input type="password" >
+                            <input id="word" type="password" >
 
                             <button class="btn btn-primary d-block">Login</button>
                         </form>
@@ -67,7 +64,7 @@
 
                 </div>
             </div>
-
+            <script src="log.js"></script>
 
 </body>
 </html>
