@@ -28,5 +28,8 @@ function register(data) {
     }
     console.log(userData)
     localStorage.setItem("user",JSON.stringify(userData),"number",JSON.stringify(userData),"email",JSON.stringify(userData),"password",JSON.stringify(userData))
+    alert("SIgned in successfully")
+    location.href = "http://127.0.0.1:5500/index.html";
+
 }
 
